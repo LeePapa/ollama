@@ -5,6 +5,7 @@ project(Ollama C CXX)
 include(CheckLanguage)
 
 find_package(Threads REQUIRED)
+find_package(PkgConfig REQUIRED)
 
 set(CMAKE_BUILD_TYPE Release)
 set(BUILD_SHARED_LIBS ON)
